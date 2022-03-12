@@ -1,14 +1,14 @@
 {
-    "sqltools.connections": [
-        {
-            "previewLimit": 50,
-            "server": "localhost",
-            "port": 5432,
-            "driver": "PostgreSQL",
-            "name": "test",
-            "database": "shelter",
-            "username": "shelter",
-            "password": "not_for_production"
-        }
-    ]
+	"sqltools.connections": [
+		{
+			"previewLimit": 50,
+			"server": "localhost",
+			"port": 5432,
+			"driver": "PostgreSQL",
+			"name": "Database",
+			"database": "shelter",
+			"username": "shelter",
+			"password": "not_for_production"
+		}
+	]
 }
