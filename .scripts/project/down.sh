@@ -3,4 +3,4 @@
 cd "$(dirname "$0")" || exit
 cd ../../.docker || exit
 
-docker-compose down
+docker-compose -f docker-compose.dev.yml down
