@@ -1,0 +1,31 @@
+#!/usr/bin/env bash
+
+set -e
+
+red=$(tput setaf 1)
+green=$(tput setaf 2)
+white=$(tput setaf 7)
+reset=$(tput sgr0)
+bold=$(tput bold)
+
+snowSuccessPrefix="[${green}Project${reset}]"
+snowFailPrefix="[${red}Project${reset}]"
+
+cd "$(dirname "$0")" || exit
+
+function executeCommand() {
+	allArguments="${@:2}"
+
+	commandFile="$(find ./.scripts/project -name "$1.sh")"
+	command="\"${white}${bold}$1${reset}\""
+
+	if [ -z "$commandFile" ] || [ "$1" = "help" ]; then
+		bash "./.scripts/project/help.sh"
+	else
+		echo "${snowSuccessPrefix} Executing command \"${white}${bold}$1${reset}\""
+		(bash "$commandFile" "$allArguments" && echo "${snowSuccessPrefix} Executing command ${command} finished") || echo "${snowFailPrefix} Command ${command} failed"
+	fi
+}
+
+bash .scripts/utility/check-requirements.sh
+executeCommand "$1" "${@:2}"
