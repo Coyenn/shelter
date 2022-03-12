@@ -1,10 +1,11 @@
 version: '3'
 services:
   node:
-    image: node
+    image: shelter-node-dev
     restart: always
     build:
       context: ./node
+      dockerfile: ./Dockerfile.dev
     volumes:
       - '../:/app'
     ports:

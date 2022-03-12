@@ -1,0 +1,12 @@
+FROM --platform=linux/amd64 node:lts
+
+ARG DEBIAN_FRONTEND=noninteractive
+
+RUN apt-get update && apt-get install -y \
+    curl \
+    unzip \
+    && rm -rf /var/lib/apt/lists/*
+
+WORKDIR /app
+
+CMD [ "yarn", "svelte-kit-preview" ]
