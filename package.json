@@ -3,7 +3,7 @@
 	"version": "0.0.1",
 	"scripts": {
 		"dev": "concurrently \"yarn svelte-kit-dev\" \"yarn storybook-start\"",
-		"svelte-kit-dev": "svelte-kit dev",
+		"svelte-kit-dev": "svelte-kit dev -p 8000 --host 0.0.0.0",
 		"svelte-kit-build": "svelte-kit build",
 		"svelte-kit-package": "svelte-kit package",
 		"svelte-kit-preview": "svelte-kit preview",
@@ -12,7 +12,7 @@
 		"svelte-kit-check:watch": "svelte-check --tsconfig ./tsconfig.json --watch",
 		"svelte-kit-lint": "prettier --ignore-path .gitignore --check --plugin-search-dir=. . && eslint --ignore-path .gitignore .",
 		"svelte-kit-format": "prettier --ignore-path .gitignore --write --plugin-search-dir=. .",
-		"storybook-start": "start-storybook -p 6006",
+		"storybook-start": "start-storybook -p 8001",
 		"storybook-build": "build-storybook"
 	},
 	"devDependencies": {
