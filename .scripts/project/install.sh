@@ -6,7 +6,7 @@ cd "$(dirname "$0")"/../../ || exit
 
 cd .docker || exit
 echo "Building docker images"
-docker-compose build
+docker-compose -f docker-compose.dev.yml build
 echo "Installing node modules"
-docker-compose run node yarn
+docker-compose -f docker-compose.dev.yml run node yarn
 cd ../
