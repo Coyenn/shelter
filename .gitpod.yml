@@ -1,0 +1,10 @@
+# Commands to start on workspace startup
+tasks:
+  - init: ./project install
+    command: ./project app:dev:serve
+
+ports:
+  - port: 8000
+    onOpen: open-browser
+  - port: 8001
+    onOpen: open-browser
