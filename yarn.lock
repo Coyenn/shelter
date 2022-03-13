@@ -1498,6 +1498,11 @@
     estree-walker "^2.0.1"
     picomatch "^2.2.2"
 
+"@steeze-ui/heroicons@^1.1.1":
+  version "1.1.1"
+  resolved "https://registry.yarnpkg.com/@steeze-ui/heroicons/-/heroicons-1.1.1.tgz#6293367692ac807e85a1b8dd0fdbee492a08bfed"
+  integrity sha512-d38HRg0xHEwj3KfAxDraZHr1RG6/wC1nYMlX2LnBYt3ESvGYxdRP0KW/wqmNxN6bhwlsGsx60joYBsVCJ9w1OA==
+
 "@storybook/addon-actions@6.4.19", "@storybook/addon-actions@^6.4.19":
   version "6.4.19"
   resolved "https://registry.yarnpkg.com/@storybook/addon-actions/-/addon-actions-6.4.19.tgz#10631d9c0a6669810264ea7fac3bff7201553084"
@@ -9615,6 +9620,13 @@ svelte-dev-helper@^1.1.9:
   version "1.1.9"
   resolved "https://registry.yarnpkg.com/svelte-dev-helper/-/svelte-dev-helper-1.1.9.tgz#7d187db5c6cdbbd64d75a32f91b8998bde3273c3"
   integrity sha1-fRh9tcbNu9ZNdaMvkbiZi94yc8M=
+
+svelte-hero-icons@^4.1.0:
+  version "4.1.0"
+  resolved "https://registry.yarnpkg.com/svelte-hero-icons/-/svelte-hero-icons-4.1.0.tgz#a222afc7c382917299c35316632869dfaf6df30f"
+  integrity sha512-K5z7wVNDG7j3Q+lCILshjHob+AaPrQPzGdY5Q6dY9Jh3lG95+JxFvTw9FzYdnKUm18m5XPgCtiLe7OCAOmH4ZQ==
+  dependencies:
+    "@steeze-ui/heroicons" "^1.1.1"
 
 svelte-hmr@^0.14.2, svelte-hmr@^0.14.9:
   version "0.14.11"
