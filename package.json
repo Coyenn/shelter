@@ -17,6 +17,7 @@
 	},
 	"devDependencies": {
 		"@babel/core": "^7.17.5",
+		"@getbigger-io/prisma-fixtures-cli": "^1.0.10",
 		"@storybook/addon-actions": "^6.4.19",
 		"@storybook/addon-essentials": "^6.4.19",
 		"@storybook/addon-links": "^6.4.19",
@@ -55,7 +56,6 @@
 	"dependencies": {
 		"@fontsource/fira-mono": "^4.5.0",
 		"@lukeed/uuid": "^2.0.0",
-		"@prisma/client": "3.10.0",
 		"cookie": "^0.4.1"
 	}
 }

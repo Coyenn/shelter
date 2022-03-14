@@ -8,5 +8,5 @@ cd .docker || exit
 echo "Building docker images"
 docker-compose -f docker-compose.dev.yml build
 echo "Installing node modules"
-docker-compose -f docker-compose.dev.yml run node yarn
+docker-compose -f docker-compose.dev.yml run --rm node yarn
 cd ../

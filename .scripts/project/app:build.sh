@@ -10,5 +10,5 @@ cd .docker || exit
 echo "Building docker images"
 docker-compose --env-file ../.env -f docker-compose.prod.yml build
 echo "Building Svelte Kit"
-docker-compose --env-file ../.env -f docker-compose.prod.yml run node yarn svelte-kit-build
+docker-compose --env-file ../.env -f docker-compose.prod.yml run node --rm yarn svelte-kit-build
 cd ../
