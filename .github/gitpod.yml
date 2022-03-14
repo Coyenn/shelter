@@ -1,0 +1,7 @@
+pulls:
+  # Enable for pull requests
+  perform: true
+
+issues:
+  # enable for issues
+  perform: true
