@@ -7,8 +7,11 @@ jobs:
       - name: Check out repository code
         uses: actions/checkout@v2
       - name: Install Project
-        run: ./project install
+        run: |-
+          bash ./project install
       - name: Copy environment file
-        run: cp .env.local .env
+        run: |-
+          cp .env.local .env
       - name: Build Project
-        run: ./project app:build
+        run: |-
+          bash ./project app:build
