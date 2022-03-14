@@ -1,17 +1,24 @@
 name: test-build
-on: [pull_request]
+
+on:
+  # Triggers the workflow on push or pull request events but only for the main branch
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
 jobs:
   build:
     runs-on: ubuntu-latest
+    defaults:
+      run:
+        shell: bash
     steps:
-      - name: Check out repository code
+      - name: Install Checkout
         uses: actions/checkout@v2
       - name: Install Project
-        shell: bash
-        run: ./project install
+        run: bash ./project install
       - name: Copy environment file
-        run: |-
-          cp .env.local .env
+        run: cp .env.local .env
       - name: Build Project
-        shell: bash
-        run: ./project app:build
+        run: bash ./project app:build
