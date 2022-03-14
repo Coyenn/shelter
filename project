@@ -2,11 +2,19 @@
 
 set -e
 
-red=$(tput setaf 1)
-green=$(tput setaf 2)
-white=$(tput setaf 7)
-reset=$(tput sgr0)
-bold=$(tput bold)
+{
+	red=$(tput setaf 1)
+	green=$(tput setaf 2)
+	white=$(tput setaf 7)
+	reset=$(tput sgr0)
+	bold=$(tput bold)
+} || {
+	red=''
+	green=''
+	white=''
+	reset=''
+	bold=''
+}
 
 snowSuccessPrefix="[${green}Project${reset}]"
 snowFailPrefix="[${red}Project${reset}]"

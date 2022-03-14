@@ -10,5 +10,8 @@
 			"username": "shelter",
 			"password": "not_for_production"
 		}
-	]
+	],
+	"yaml.schemas": {
+		"https://json.schemastore.org/github-workflow.json": "file:///workspace/shelter/.github/workflows/build.yml"
+	}
 }
