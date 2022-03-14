@@ -6,15 +6,12 @@ jobs:
     steps:
       - name: Check out repository code
         uses: actions/checkout@v2
-      - name: Set bash as terminal
-        run: |-
-          echo $Term = shell: /usr/bin/bash -e {0}
       - name: Install Project
         run: |-
-          bash ./project install
+          TERM=dumb && bash ./project install
       - name: Copy environment file
         run: |-
-          cp .env.local .env
+          TERM=dumb && cp .env.local .env
       - name: Build Project
         run: |-
-          bash ./project app:build
+          TERM=dumb && bash ./project app:build
