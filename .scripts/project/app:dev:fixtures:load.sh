@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/bin/bash
 # 🔨 Load Prisma fixtures
 set -e
 cd "$(dirname "$0")"

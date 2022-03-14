@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/bin/bash
 # 🛑 Stop developing
 cd "$(dirname "$0")" || exit
 cd ../../.docker || exit

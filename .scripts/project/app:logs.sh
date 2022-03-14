@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/bin/bash
 # 📃 See what's going on inside your plugin
 cd "$(dirname "$0")" || exit
 cd ../../.docker || exit

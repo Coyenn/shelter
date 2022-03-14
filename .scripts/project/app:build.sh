@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/bin/bash
 # 👋 Build for production
 
 set -e

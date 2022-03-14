@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/bin/bash
 # 👋 Execute commands in Prisma
 
 set -e
