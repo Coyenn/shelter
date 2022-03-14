@@ -6,6 +6,9 @@ jobs:
     steps:
       - name: Check out repository code
         uses: actions/checkout@v2
+      - name: Set bash as terminal
+        run: |-
+          echo $Term = shell: /usr/bin/bash -e {0}
       - name: Install Project
         run: |-
           bash ./project install
