@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 # 👀 Display this message
 
 echo 'Project Management'

@@ -1,7 +1,8 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 set -e
 
+TERM='xterm-256color'
 red=$(tput setaf 1)
 green=$(tput setaf 2)
 white=$(tput setaf 7)

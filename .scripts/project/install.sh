@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 # 👋 Install all dependencies for development
 
 set -e
