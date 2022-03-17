@@ -2417,10 +2417,10 @@
     esbuild "^0.14.21"
     tiny-glob "^0.2.9"
 
-"@sveltejs/adapter-node@^1.0.0-next.71":
-  version "1.0.0-next.71"
-  resolved "https://registry.yarnpkg.com/@sveltejs/adapter-node/-/adapter-node-1.0.0-next.71.tgz#ed0f041d0856de322751f21958748207607e24d6"
-  integrity sha512-ELSQBSyk0IHMRi5Zct95jP+lTUJ0VQ/d7DxPMQTaDYVexpehDBOV6bXDzSNBl9boIIfEv77VD3lA7kgtuJnGdg==
+"@sveltejs/adapter-node@1.0.0-next.72":
+  version "1.0.0-next.72"
+  resolved "https://registry.yarnpkg.com/@sveltejs/adapter-node/-/adapter-node-1.0.0-next.72.tgz#e526061a62a75abf09baff318976c9870deadcb8"
+  integrity sha512-+zlZM41LgluD6MI6NE2SgPe5Qee9KZfKyYu52+YAgORg+7OPfgwdOupLVlLk6wTyAbzq5lzpNMu5/qEfnCX++Q==
   dependencies:
     tiny-glob "^0.2.9"
 
