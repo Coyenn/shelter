@@ -12,8 +12,10 @@ docker-compose -f docker-compose.dev.yml run --rm node yarn
 cd ../
 
 {
-    echo "Trying to load fixtures"
-    ./project app:dev:fixtures:load
+  "Initializing Database"
+  ./project app:dev:prisma:migrate
+  ./project app:dev:prisma:generate
+  ./project app:dev:fixtures:load
 } || {
     printf ""
 }

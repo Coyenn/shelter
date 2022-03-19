@@ -10,3 +10,4 @@ node_modules
 .vercel
 .output
 yarn-error.log
+migrations
