@@ -9,3 +9,20 @@ datasource db {
   provider = "postgresql"
   url      = env("DB_URL")
 }
+
+// This will allow for more user roles to be added eventually
+enum Role {
+  ADMIN
+}
+
+model User {
+  id      Int      @id @default(autoincrement())
+  email   String   @unique
+  name    String?
+  role    Role     @default(ADMIN)
+}
+
+model App {
+  id    Int     @id @default(autoincrement())
+  url   String
+}
