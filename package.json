@@ -46,7 +46,7 @@
 		"storybook-builder-vite": "0.1.21",
 		"svelte": "3.46.4",
 		"svelte-check": "2.4.6",
-		"svelte-hero-icons": "4.1.0",
+		"svelte-hero-icons": "4.1.1",
 		"svelte-loader": "3.1.2",
 		"svelte-preprocess": "4.10.4",
 		"tailwindcss": "3.0.23",

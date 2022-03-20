@@ -9681,10 +9681,10 @@ svelte-dev-helper@^1.1.9:
   resolved "https://registry.yarnpkg.com/svelte-dev-helper/-/svelte-dev-helper-1.1.9.tgz#7d187db5c6cdbbd64d75a32f91b8998bde3273c3"
   integrity sha1-fRh9tcbNu9ZNdaMvkbiZi94yc8M=
 
-svelte-hero-icons@4.1.0:
-  version "4.1.0"
-  resolved "https://registry.yarnpkg.com/svelte-hero-icons/-/svelte-hero-icons-4.1.0.tgz#a222afc7c382917299c35316632869dfaf6df30f"
-  integrity sha512-K5z7wVNDG7j3Q+lCILshjHob+AaPrQPzGdY5Q6dY9Jh3lG95+JxFvTw9FzYdnKUm18m5XPgCtiLe7OCAOmH4ZQ==
+svelte-hero-icons@4.1.1:
+  version "4.1.1"
+  resolved "https://registry.yarnpkg.com/svelte-hero-icons/-/svelte-hero-icons-4.1.1.tgz#815e475753b57e2bfbdcc429c3b7c3fa8f6ffb06"
+  integrity sha512-DMTW4SAAMbnaZCzLGhkyw+H3mo7+xLMqGnh2EevvcvLrq/pKtb7I0ooMNwyd3jAJ0Aqxq+q01d0sHFSwPnZw4w==
   dependencies:
     "@steeze-ui/heroicons" "^1.1.1"
 
