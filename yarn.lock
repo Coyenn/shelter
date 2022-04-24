@@ -1312,10 +1312,10 @@
   resolved "https://registry.yarnpkg.com/@faker-js/faker/-/faker-6.0.0.tgz#b613ebf5f5ebb2ab987afb567d8b7fe860199c13"
   integrity sha512-10zLCKhp3YEmBuko71ivcMoIZcCLXgQVck6aNswX+AWwaek/L8S3yz9i8m3tHigRkcF6F2vI+qtdtyySHK+bGA==
 
-"@fontsource/fira-mono@4.5.6":
-  version "4.5.6"
-  resolved "https://registry.yarnpkg.com/@fontsource/fira-mono/-/fira-mono-4.5.6.tgz#719b9c55fba655a4189477150fd5d89fac012ec3"
-  integrity sha512-sEt0MoN25QabXfq4xrtOyHQT257hNkJwR2Z10Y3xH9dEqH6Zlr9id7biiI+nwX1nnhgaywpnc7UH1cv/8t0VLA==
+"@fontsource/fira-mono@4.5.8":
+  version "4.5.8"
+  resolved "https://registry.yarnpkg.com/@fontsource/fira-mono/-/fira-mono-4.5.8.tgz#e17123b88459d5dd459ba06a7d3b3e6d7e8f7b42"
+  integrity sha512-sFuSPB/Km8B1fy3CH0NqO5Nb4GmVMzp3XFaw6MwK293xhm3OnB68QJawwTTjLewcrS78wOTAhTUB058qxurJoQ==
 
 "@gar/promisify@^1.0.1":
   version "1.1.3"
