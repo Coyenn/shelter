@@ -42,7 +42,7 @@
 		"prettier": "2.6.1",
 		"prettier-plugin-svelte": "2.6.0",
 		"prisma": "3.11.1",
-		"sass": "1.49.9",
+		"sass": "1.53.0",
 		"storybook-builder-vite": "0.1.21",
 		"svelte": "3.46.4",
 		"svelte-check": "2.4.6",
